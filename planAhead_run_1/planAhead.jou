@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Fri Nov 22 01:54:29 2019
+# Process ID: 12548
+# Log file: /home/ise/x/lcd/planAhead_run_1/planAhead.log
+# Journal file: /home/ise/x/lcd/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /home/ise/x/lcd/pa.fromNetlist.tcl
+655
+set_property prohibit 1 [get_sites RAMB8_X1Y19]
+set_property prohibit 0 [get_sites RAMB8_X1Y19]

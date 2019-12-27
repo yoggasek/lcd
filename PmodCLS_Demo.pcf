@@ -1,0 +1,30 @@
+//! **************************************************************************
+// Written by: Map P.20160913 on Sat Nov 23 03:04:23 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "SW<1>" LOCATE = SITE "D14" LEVEL 1;
+COMP "JB<7>" LOCATE = SITE "V9" LEVEL 1;
+COMP "JB<8>" LOCATE = SITE "T9" LEVEL 1;
+COMP "JB<9>" LOCATE = SITE "V4" LEVEL 1;
+COMP "JB<10>" LOCATE = SITE "T4" LEVEL 1;
+COMP "switch" LOCATE = SITE "C14" LEVEL 1;
+COMP "bufor<0>" LOCATE = SITE "U18" LEVEL 1;
+COMP "bufor<1>" LOCATE = SITE "M14" LEVEL 1;
+COMP "bufor<2>" LOCATE = SITE "N14" LEVEL 1;
+COMP "bufor<3>" LOCATE = SITE "L14" LEVEL 1;
+COMP "bufor<4>" LOCATE = SITE "M13" LEVEL 1;
+COMP "bufor<5>" LOCATE = SITE "D4" LEVEL 1;
+COMP "bufor<6>" LOCATE = SITE "P16" LEVEL 1;
+COMP "bufor<7>" LOCATE = SITE "N12" LEVEL 1;
+COMP "button_up" LOCATE = SITE "F5" LEVEL 1;
+COMP "button_res" LOCATE = SITE "F6" LEVEL 1;
+COMP "button_down" LOCATE = SITE "P3" LEVEL 1;
+COMP "JA<0>" LOCATE = SITE "T3" LEVEL 1;
+COMP "JA<1>" LOCATE = SITE "R3" LEVEL 1;
+COMP "JA<2>" LOCATE = SITE "P6" LEVEL 1;
+COMP "JA<3>" LOCATE = SITE "N5" LEVEL 1;
+COMP "CLK" LOCATE = SITE "L15" LEVEL 1;
+COMP "SW<0>" LOCATE = SITE "A10" LEVEL 1;
+SCHEMATIC END;
+

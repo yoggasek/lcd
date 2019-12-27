@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ise/x/lcd/PmodCLS_Demo.ncd
+OUTFILE=/home/ise/x/lcd/PmodCLS_Demo.bit
+FAMILY=Spartan6
+PART=xc6slx45-3csg324
+WORKINGDIR=/home/ise/x/lcd
+LICENSE=ISE
+USER_INFO=8416_11442_1478797146_620

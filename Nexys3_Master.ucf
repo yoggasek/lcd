@@ -1,0 +1,42 @@
+## This file is a general .ucf for Nexys3 rev B board
+## To use it in a project:
+## - remove or comment the lines corresponding to unused pins
+## - rename the used signals according to the project
+
+#Clock signal
+Net "clk" LOC=L15 | IOSTANDARD=LVCMOS33;
+
+#ledy
+//Net "Led<0>" LOC = N12 | IOSTANDARD = LVCMOS33;
+
+
+# Switches
+Net "sw<0>" LOC = A10 | IOSTANDARD = LVCMOS33; #Bank = 2, pin name = IO_L29N_GCLK2, Sch name = SW0
+Net "sw<1>" LOC = D14 | IOSTANDARD = LVCMOS33; #Bank = 2, pin name = IO_L32P_GCLK29, Sch name = SW1
+
+Net "switch" LOC = C14 | IOSTANDARD = LVCMOS33; #Bank = 2, pin name = IO_L32N_GCLK28, Sch name = SW2
+
+
+#SPI
+Net "JA<0>" LOC = T3 | IOSTANDARD = LVCMOS33; #Bank = 2, pin name = IO_L19P, Sch name = JA1
+Net "JA<1>" LOC = R3 | IOSTANDARD = LVCMOS33; #Bank = 2, pin name = IO_L19N, Sch name = JA2  
+Net "JA<2>" LOC = P6 | IOSTANDARD = LVCMOS33; #Bank = 2, pin name = IO_L20P, Sch name = JA3
+Net "JA<3>" LOC = N5 | IOSTANDARD = LVCMOS33; #Bank = 2, pin name = IO_L20N, Sch name = JA4
+#encoder
+Net "JB<7>" LOC = V9 | IOSTANDARD = LVCMOS33; //A
+Net "JB<8>" LOC = T9 | IOSTANDARD = LVCMOS33; //B
+Net "JB<9>" LOC = V4 | IOSTANDARD = LVCMOS33; //button
+Net "JB<10>" LOC = T4 | IOSTANDARD = LVCMOS33; //switch
+
+NET "bufor<0>" LOC=U18;
+NET "bufor<1>" LOC=M14;
+NET "bufor<2>" LOC=N14;
+NET "bufor<3>" LOC=L14;
+NET "bufor<4>" LOC=M13;
+NET "bufor<5>" LOC=D4;
+NET "bufor<6>" LOC=P16;
+NET "bufor<7>" LOC=N12 | IOSTANDARD = LVCMOS33;
+
+NET "button_up" LOC= F5;
+NET "button_res" LOC = F6;
+NET "button_down" LOC = P3;

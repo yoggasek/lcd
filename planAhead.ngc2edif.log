@@ -1,0 +1,66 @@
+Release 14.7 - ngc2edif P.20160913 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design PmodCLS_Demo.ngc ...
+WARNING:NetListWriters:298 - No output is written to PmodCLS_Demo.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus C1/spi_clk_count<10 : 0> on block
+   PmodCLS_Demo is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file PmodCLS_Demo.edif ...
+ngc2edif: Total memory usage is 104444 kilobytes
+
+Release 14.7 - ngc2edif P.20160913 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design PmodCLS_Demo.ngc ...
+WARNING:NetListWriters:298 - No output is written to PmodCLS_Demo.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus C1/spi_clk_count<10 : 0> on block
+   PmodCLS_Demo is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file PmodCLS_Demo.edif ...
+ngc2edif: Total memory usage is 104436 kilobytes
+
+Release 14.7 - ngc2edif P.20160913 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design PmodCLS_Demo.ngc ...
+WARNING:NetListWriters:298 - No output is written to PmodCLS_Demo.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus C0/send_data<6 : 0> on block
+   PmodCLS_Demo is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus temp_data<6 : 0> on block PmodCLS_Demo
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus C1/spi_clk_count<10 : 0> on block
+   PmodCLS_Demo is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file PmodCLS_Demo.edif ...
+ngc2edif: Total memory usage is 104660 kilobytes
+
+Release 14.7 - ngc2edif P.20160913 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design PmodCLS_Demo.ngc ...
+WARNING:NetListWriters:298 - No output is written to PmodCLS_Demo.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus C0/send_data<6 : 0> on block
+   PmodCLS_Demo is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus temp_data<6 : 0> on block PmodCLS_Demo
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus C1/spi_clk_count<10 : 0> on block
+   PmodCLS_Demo is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file PmodCLS_Demo.edif ...
+ngc2edif: Total memory usage is 104700 kilobytes
+
